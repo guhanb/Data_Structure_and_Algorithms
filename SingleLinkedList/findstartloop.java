@@ -81,8 +81,7 @@ public static void main(String[] args) {
     findstartloop sll = new findstartloop();
     sll.CreatingLoop();
     System.out.println("starting point of loop:"+ sll.startloop().data);
-    sll.removeloop();
-    sll.display();
+    
 
 } 
 }
