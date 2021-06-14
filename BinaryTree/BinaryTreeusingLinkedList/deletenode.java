@@ -1,4 +1,4 @@
-package binarytree;
+
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -141,19 +141,12 @@ public class BinarytreeusingLL {
         N4.right = N7;
         
 
-        BinaryTree.root = N1;
-
-        
-        
+        BinaryTree.root = N1;     
         BinaryTree.deletenode("N3");
         System.out.println();
         BinaryTree.levelorder();
         BinaryTree.deleteBT();
         BinaryTree.levelorder();
-
-
-
-        
     }
 
 }
