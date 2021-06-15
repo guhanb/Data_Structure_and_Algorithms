@@ -32,13 +32,9 @@ public class binaryheap {
     public int sizeofheap(){
         return sizeoftree;
     }
-
-    
+   
     public static void main(String[] args) {
         binaryheap BHeap = new binaryheap(5);
         BHeap.peek();
-        
-
     }
-
 }
